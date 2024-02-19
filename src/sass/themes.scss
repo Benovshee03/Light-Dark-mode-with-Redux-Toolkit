@@ -1,10 +1,16 @@
-$themes: (
-  light: (
-    bg: #f5fcff,
-    fg: #002433,
-  ),
-  dark: (
-    bg: #004966,
-    fg: #f5fcff,
-  ),
-);
+
+$light-background: #ffffff;
+$light-text: #000000;
+
+$dark-background: #333333;
+$dark-text: #ffffff;
+
+body.light {
+  background-color: $light-background;
+  color: $light-text;
+}
+
+body.dark {
+  background-color: $dark-background;
+  color: $dark-text;
+}
