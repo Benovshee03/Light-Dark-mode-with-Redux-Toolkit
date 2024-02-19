@@ -1,0 +1,5 @@
+@import "./themify.scss";
+
+header {
+  @include themify('background', 'body-bg');
+}
